@@ -1,0 +1,67 @@
+.app__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-black);
+    padding: 1rem 2rem;
+}
+
+.app__header-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    width: 453px;
+    height: 481px;
+}
+
+.app__header-info h1 {
+
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 130%;
+    /* or 117px */
+
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+
+    /* DCCA87 */
+
+    color: #DCCA87;
+}
+
+.app__wrapper_img img {
+    width: 50%;
+    /* width: 667px;
+    height: 736px; */
+}
+
+@media screen and (min-width: 2000px) {
+    .app__header-h1 {
+        font-size: 180px;
+        line-height: 210px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .app__header-h1 {
+        font-size: 90px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__header-h1 {
+        font-size: 70px;
+        line-height: 87px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .app__header-h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+}
