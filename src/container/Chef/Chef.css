@@ -1,0 +1,99 @@
+.app__chef {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../../assets/bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.app__chef-image {
+    /* width: 665px; */
+    /* height: 998px; */
+}
+
+.app__chef-image img {
+    width: 650px;
+}
+
+.app__chef-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 64px;
+
+    width: 570px;
+    height: 615px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+
+}
+
+.app__chef-text h1 {
+
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 130%;
+
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    color: #DCCA87;
+}
+
+.app__chef-text p {
+
+}
+
+.app__chef-text-sign {
+
+}
+
+.app__chef-text-sign-name {
+    width: 135px;
+    height: 42px;
+
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 130%;
+
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    color: #DCCA87;
+}
+
+.app__chef-text-sign-title {
+
+
+}
+
+.signature_image {
+    width: 235px;
+    height: 83px;
+}
+
+@media screen and (min-width: 2000px) {
+    .app__chef-image {
+        width: 370px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .app__chef-image {
+        width: 200px;
+    }
+
+    .app__chef-text h1 {
+        font-size: 16px;
+    }
+}
